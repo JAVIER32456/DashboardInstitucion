@@ -20,6 +20,9 @@ const Login = () => {
         
     };
 
+    // const [] = useState('');
+
+
     return (
         <div className='container'> 
             <div className='header'>
@@ -27,6 +30,17 @@ const Login = () => {
                 <div className="underline"></div>
             </div>      
             <div className="inputs">
+
+                <div className='input'>
+                    <img src="" alt="" />
+                    <input type="text" placeholder='Name' value={name} 
+                    onChange={(e) => setName(e.target.value)}/>
+                </div>
+                <div className='input'>
+                    <img src="" alt="" />
+                    <input type="text" placeholder='LastName' value={lastName} 
+                    onChange={(e) => setLastName(e.target.value)}/>
+                </div>
                 <div className='input'>
                     <img src="" alt="" />
                     <input type="email" placeholder='Email' value={email} 
@@ -37,6 +51,12 @@ const Login = () => {
                     <input type="password" placeholder='Password' value={password} 
                     onChange={(e) => setPassword(e.target.value)}/>
                 </div>
+
+                <div className="submit-container">
+                    <div type="submit" className="submit">Sign Up</div>
+                    <div type="submit" className="submit">Login</div>
+                </div>
+
 
                 <button onClick={async () => {
                     try {
