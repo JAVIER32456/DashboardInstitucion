@@ -1,0 +1,26 @@
+.container{
+    display: block;
+
+}
+ 
+img{
+    padding: 9px;
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+
+.header{
+    border: 1px;      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(189, 15, 15);
+}
+
+.header h2 {
+    justify-content: center;
+    padding: 20px;
+
+
+}  

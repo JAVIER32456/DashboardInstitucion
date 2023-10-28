@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    width: 500px;
+    background-color:  rgb(238, 233, 233);   
+}
+
+
+h1{
+    text-align: center;
+}
+
+label{
+    margin-left: 60px;
+    display: flex;
+    padding: 4px;
+}
+
+.campos {
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.genero{
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input {
+    display: block;
+    margin-left: 60px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+}
+
+p{
+    display: flex;
+    margin-left: 50px;
+    color: tomato;
+    font-size: x-small;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.boton{
+    padding-top: 20px;
+}
